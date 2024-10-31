@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Great+Vibes&family=Handlee&family=Spicy+Rice&family=Vazirmatn:wght@100..900&display=swap');
+
+
+#heading img {
+    width: 100%;
+}
+
+#heading .row {
+    padding:0px!important;
+}
+
+nav a:hover {
+    background-color: #8b8a8a;
+}
+
+
+.dropdown-menu {
+    background-color: #ffffff;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 3%;
+    font-size: 300%;
+    font-family: "Spicy Rice", serif;
+    color: #39689a;
+    text-shadow: -2px 2px #f9ce11c0;
+}
+
+p{
+    text-align: justify;
+    font-family: "Arima", system-ui;
+
+}
+
+.profile img {
+    float: right;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+body {
+    background-color: #fff7eb;
+}
+
+.profile {
+    background-color: #f8f4ee;
+
+}
+
+#About img, #Hobbies img, #Travels img {
+    border-radius: 10px;
+}
+
+a:active {
+    color: #1663c0;
+}
+
+a:visited { 
+    color: #559cb2;
+}
+
+h6 {
+ text-align: center;
+ font-weight: 300;
+
+}
