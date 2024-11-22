@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+nav {
+    background-color: #0c4d9c;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 500;    
+}
+
+.nav-link:hover {
+    color: #C2D7F2;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    font-family: "Roboto";
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0927d1;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+    color: #ffffff;
+    font-size: large;
+
+} 
+
+.navbar li:hover>a {
+    color: #ffffff !important;
+} 
+
+.banner .getstarted,
+.banner .getstarted:focus {
+    background: #3b2901;
+    padding: 0;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #5078aa;
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/home/coverpage.jpg") top center;
+    position: relative;
+}
+
+#banner:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#banner .navbark-dark{
+    background: #333333 !important;
+}
+
+#banner .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#banner h1 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    font-weight: 250;
+    color: #0c4d9c;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+#banner h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+#banner .btn-get-started {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 25px;
+    border: 2px solid #5078aa;
+    color: #fff;
+}
+
+#banner .btn-get-started:hover {
+    background: #5078aa;
+}
+
+/* ECONOMY */
+
+#economy {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/economy/market.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+  
+#economy .banner-container {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+#economy .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+  
+#economy h1 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    font-weight: 250;
+    color: #0c4d9c;
+    -webkit-text-stroke: 1px #ffffff;
+}
+   
+#economy .btn-get-started {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 25px;
+    border: 2px solid #5078aa;
+    color: #fff;
+    background-color: #5078aa;
+}
+  
+#economy .btn-get-started:hover {
+    background: #1a5398;
+}
+
+/* ATTRACTIONS */
+
+#att {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/attractions/sistersofstpaul.jpeg") top center;
+    background-size: cover;
+    position: relative;
+}
+  
+#att .banner-container {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+#att .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+  
+#att h1 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    font-weight: 250;
+    color: #0c4d9c;
+    -webkit-text-stroke: 1px #ffffff;
+}
+   
+#att .btn-get-started {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 25px;
+    border: 2px solid #5078aa;
+    color: #fff;
+}
+  
+#att .btn-get-started:hover {
+    background: #5078aa;
+}
+
+/* PEOPLE */
+
+#people {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/people/people.jpeg") top center;
+    background-size: cover;
+    position: relative;
+}
+  
+#people .banner-container {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+#people .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+  
+#people h1 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    font-weight: 250;
+    color: #0c4d9c;
+    -webkit-text-stroke: 1px #ffffff;
+}
+   
+#people .btn-get-started {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 25px;
+    border: 2px solid #5078aa;
+    color: #fff;
+}
+  
+#people .btn-get-started:hover {
+    background: #5078aa;
+}
+
+/* REFERENCES */
+
+#references {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/aerialshot.jpeg") top center;
+    background-size: cover;
+    position: relative;
+}
+  
+#references .banner-container {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+#references .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+  
+#references h1 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    font-weight: 250;
+    color: #0c4d9c;
+    -webkit-text-stroke: 1px #ffffff;
+}
+   
+#references .btn-get-started {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 25px;
+    border: 2px solid #5078aa;
+    color: #fff;
+}
+  
+#references .btn-get-started:hover {
+    background: #5078aa;
+}
+
+/* end here banners */
+
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 10px;
+}
+
+.spots {
+    background: #dbe9fa;
+    padding: 30px 0;
+}
+  
+.spots .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+  
+.spots.member .member-img {
+    position: relative;
+}
+
+.spots .member .member-info h4 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #353535;
+    text-align: center;
+}
+
+.spots .member .member-info {
+    padding: 25px 15px;
+}
+
+.section-title h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #ffffff;
+    color: #5078aa;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.subscribe p, h3 {
+    text-align: center;
+    color: #5078aa;
+}
+
+.subscribe {
+    background: #ebf3fc;
+    padding: 30px 0;
+}
+
+#fab a:hover {
+    background: #8fc04e;   
+    color: blue;
+}
+
+footer p, h3 {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 10px;
+    color: #0c3b74;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+}
+
+h2, p {
+    font-family: "Quicksand", sans-serif;
+}
+
+h6, a {
+    color: #3e281de5;
+    font-family: "Quicksand", sans-serif;
+}
+
+.economy a {
+    color: blue;
+}
+
+#rob {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#rob img{
+    border-radius: 10px;
+}
