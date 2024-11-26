@@ -17,15 +17,15 @@ var powerLevel = 9001;
 //Numbers allows you to do math stuff like seeing if something is less than something else
 if (powerLevel > 9000){
     console.log("Too powerful!!!");
-    document.getElementById("column1").innerHTML = '<img class="img-fluid" src="../images/code.jpg">';
-    document.getElementById("column2").innerHTML = '<img class="img-fluid" src="../images/code.jpg">';
+    document.getElementById("column1").innerHTML = '<img class="img-fluid" src="images/code.jpg">';
+    document.getElementById("column2").innerHTML = '<img class="img-fluid" src="images/code.jpg">';
 }
 
 if (powerLevel / 2 > 9000){ 
-    document.getElementById("column3").innerHTML = '<img class="img-fluid" src="../images/code2.jpg">';
+    document.getElementById("column3").innerHTML = '<img class="img-fluid" src="images/code2.jpg">';
 }   
 else {
-    document.getElementById("column3").innerHTML = '<img class="img-fluid" src="../images/code2.jpg">';
+    document.getElementById("column3").innerHTML = '<img class="img-fluid" src="images/code2.jpg">';
 }
 
 
